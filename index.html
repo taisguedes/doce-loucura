@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/site.css">
+	<meta charset="utf-8">
+	<title>Doce Loucura Doces</title>
+	
+</head>
+<body>
+	<div class="area-menu">
+			<img id="logo" src="img/logo-doce.png" alt="logo"> <!--Inserir logo da doceria como título -->
+		<header> <!-- Cabeçalho-->
+			<nav>
+				<ul>
+					<li> 
+						<a href="#quemsomos">História</a> <!-- 1ª seção,  história --> <!--ok-->
+					</li>
+					<li>
+						<a href="#cardapio">Cardápio</a> <!-- Fotos estáticas --> 
+					</li>
+					<li>
+						<a href="#imagens">Galeria</a> <!-- Fotos, vídeos, gifs, slider na página principal -->
+					</li>
+					<li>
+						<a href="#pedido">Pedidos</a> <!-- Formulário -->
+					</li>
+					<li>
+						<a href="#sugestao">Sugestões</a> <!-- Quadradinho de depoimentos form, com quantidade mínima e máxima de caracteres -->
+					</li>
+					<li>
+						<a href="#depo">Depoimentos</a> <!-- Fotos -->
+					</li>
+					<li>
+						<a href="#contato">Contato</a> <!-- Usar mapinha com endereço, telefone, e-mail, horário de atendimento, take away, ifood, redes sociais -->
+					</li>
+				</ul>
+			</nav>
+		</header><br><br>
+	</div>
+		<!--Aqui adicionaremos um carrosel com imagens de produtos deliciosos para ir passando bem no início da página com imagens de alguns produtos, a forma que utilizamos para aplicar este slider foi através do bootstrapp -->
+		<div id="animacao">
+			<section id="slider">
+				<h2>Slider</h2>
+				<div id="carrosel" class="carousel slide" data-ride="carousel">
+				  <ol class="carousel-indicators">
+				    <li data-target="#carrosel" data-slide-to="0" class="active"></li>
+				    <li data-target="#carrosel" data-slide-to="1"></li>
+				    <li data-target="#carrosel" data-slide-to="2"></li>
+				    <li data-target="#carrosel" data-slide-to="3"></li>
+				    <li data-target="#carrosel" data-slide-to="4"></li>
+				  </ol>
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+				      <img class="d-block w-100" src="img/barramescla.jpeg" alt="Primeiro Slide">
+				    </div>
+				    <div class="carousel-item">
+				      <img class="d-block w-100" src="img/bolopote.jpeg" alt="Segundo Slide">
+				    </div>
+				    <div class="carousel-item">
+				      <img class="d-block w-100" src="img/banofe.jpg" alt="Terceiro Slide">
+				    </div>
+				    <div class="carousel-item">
+				      <img class="d-block w-100" src="img/barraoreo.jpeg" alt="Quarto Slide">
+				    </div>
+				    <div class="carousel-item">
+				      <img class="d-block w-100" src="img/nakedcake.jpg" alt="Quinto Slide">
+				    </div>
+				  </div>
+				  <a class="carousel-control-prev" href="#carrosel" role="button" data-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Anterior</span>
+				  </a>
+				  <a class="carousel-control-next" href="#carrosel" role="button" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Próximo</span>
+				  </a>
+				</div>
+			</section>
+			<nav class="links">
+				<ul class="redes-sociais">
+					<li>
+						<a href="https://www.instagram.com/doceloucura_doces/" target="_blank">
+							<img src="img/insta.jpg" alt="linkinstagram">
+						</a>
+					</li>
+					<li>
+						<a href="https://m.facebook.com/Doce-Loucura-1478465285795590/?ref=bookmarks" target="_blank">
+							<img src="img/facebook.jpg" alt="linkfacebook">
+						</a>
+					</li>
+					<li>
+						<a href="http://api.whatsapp.com/send?phone=5555999469653&text=Bem-vindes" target="_blank">
+							<img src="img/whats.jpg" alt="linkwhatsapp">
+						</a>
+					</li>
+				</ul>		
+			</nav>
+		</div>
+			<!-- Primeira seção do site -->
+			<section id="quemsomos">
+				<h2>Quem Somos?</h2><br>
+				<p>A Doce Loucura é uma empresa caseira, cujo propósito inicial era transformar uma paixão, a culinária, em doces experiências. 
+				Tudo começou no ano de 2015 na cidade de São Gabriel/RS, com a concretização deste sonho na cozinha de casa  e por 4 anos levamos o melhor da confeitaria para nossos clientes, com ingredientes de altíssimo nível, amor e dedicação para ser uma referência nesta área.
+				Atualmente, nos situamos na cidade de Porto Alegre/RS, onde há pouco mais de 2 anos estamos dando continuidade ao sonho que começou lá no interior do estado, aprimorando nosso conhecimento, com muito estudo e ingredientes selecionados, levamos nossa marca com muito amor, carinho e cuidado em cada produto, desde o preparo até a embalagem, para que nossos clientes sintam ao receber nossos produtos o amor que queremos espalhar para o mundo em forma de doçura.</p><br>
+				<div id="fotogurias">
+					<figure>
+						<!-- Foto Bruna -->
+						<img src="img/bruna.jpeg" alt="foto1">
+						<figcaption>
+							Bruna Azevedo 
+						</figcaption>
+					</figure>
+					
+					<figure>
+						<!-- Foto Paola -->
+						<img src="img/paola.jpeg" alt="foto2">
+						<figcaption>
+						Paola Fantinel
+						</figcaption>
+					</figure>
+					
+					<figure>
+						<!-- Foto Taís --> 
+						<img src="img/tais.jpg" alt="foto3">
+						<figcaption>
+						Taís Guedes
+						</figcaption>
+					</figure>
+				</div>
+			</section><br><br>
+			<!-- Segunda Seção do Site-->
+			<section id="cardapio">
+				<h2>Cardápio</h2><br>
+				<p>Para você que chegou até aqui, seja muito bem-vindxs!
+				Que prazer poder adoçar um pouquinho a tua vida e das pessoas que tu amas.
+				Aqui, você encontrará desde as opções de brigs (forma carinhosa com a qual chamamos nossos brigadeiros), bolos, tortas, barras recheadas e até aquelas opções de enxer os olhos, aquecer o coração e satisfazer o desejo por um docinho :) </p><br>
+
+				<figure>
+					<!-- Foto de cada tipo de doce -->
+					<div class="fotos">
+						<h3>Brigadeiros</h3><br>
+						<img src="img/brigsdiv.jpeg" alt="brigadeiros"> <!-- Brigadeiros -->
+							<h4> Brigs gourmet</h4>
+						<p>	Sabores disponíveis:<br>
+							>> Tradicionais: branco,preto, coco e paçoca;<br>
+							>> Especiais: churros, café , coco queimado, leite ninho com nutella, noir(70%).<br><br>
+							*Caixinha com 4 unidades --------------------------- R$ 15,00<br>
+							*Caixinha com 6 unidades --------------------------- R$ 18,00<br>
+							*Caixinha com 12 unidades --------------------------- R$ 32,00</p><br><br>
+					</div>
+					<div class="fotos">
+						<img src="img/brigsveg.jpeg" alt="brigadeiros veganos"> <!-- Brigadeiros veg -->
+							<h4>Zero Lactose e veganos</h4>
+						<p> Sabores disponíveis:<br>
+							>> Tradicionais: branco, preto, coco, paçoca;<br>
+							>> Especiais: coco queimado,café, dark.<br><br>
+							*Caixinha com 4 unidades --------------------------- R$ 18,00<br>
+							*Caixinha com 6 unidades --------------------------- R$ 21,00<br>
+							*Caixinha com 12 unidades --------------------------- R$ 40,00</p><br><br>
+					</div>
+					<div class="fotos">
+						<img src="img/caipirinha.jpg" alt="brigadeiros"> <!-- Brigadeiros alcoólicos-->
+							<h4>Alcoólicos (Proibido para menores de 18 anos)</h4>
+						<p> Sabores disponíveis:<br>
+							>> Caipirinha e uísque  12 anos.<br><br>
+							*Caixinha com 4 unidades --------------------------- R$ 20,00<br>
+							*Caixinha com 6 unidades --------------------------- R$ 24,00<br>
+							*Caixinha com 12 unidades --------------------------- R$ 42,00</p><br><br>
+					</div><br><br>
+					<div class="fotos">
+						<h3>Barras de chocolate</h3><br>
+						<img src="img/barrabranca.jpeg" alt="barra recheadas"> <!-- Barras Recheadas -->
+							<h4>Barras Recheadas</h4>
+						<p> Sabores disponíveis:<br>
+							>> Tradicionais: Chocolate branco, meio amargo, ao leite;<br>
+							>> Especiais: Oreo, crocante, M&M's, mesclada;<br>
+							>> Recheios: Branco, preto, coco, café, paçoca.<br><br>
+							*300g Tradicional --------------------------- R$ 30,00<br>
+							*300g Especial ----------------------------- R$ 35,00</p><br><br>
+					</div><br><br>
+					<div class="fotos">
+						<h3>Doce no potinho</h3><br><br>
+						<img src="img/bolocenoura.jpeg" alt="Bolos"> <!-- Doces no Potinho -->
+							<h4>Bolo no potinho</h4>
+						<p> Sabores disponíveis:<br>
+							>> Tradicionais: Cenoura com brigadeiro, red velvet;<br>
+							>> Especiais: Brownie 70%, bolo de chocolate com nata e morango;<br><br>
+							* Potinho com 250g: --------------------------- R$ 12,00<br>
+							* Potinho com 250g: --------------------------- R$ 15,00</p><br><br>
+					</div><br><br>
+					<div class="fotos">
+						<img src="img/palhabranca.jpg" alt="palha de paçoca">
+							<h4>Palha italiana recheada</h4>
+						<p> Sabores disponíveis:<br>
+							>> Tradicionais: Brigadeiro com caramelo, branquinho com paçoca<br><br>
+							*Potinho com 150g --------------------------- R$ 9,00<br>
+							*Potinho com 250g --------------------------- R$ 16,00</p><br><br>
+					</div><br><br>
+					<div class="fotos">
+						<img src="img/palhaveg.jpg" alt="palha de paçoca">
+							<h4>Palha italiana recheada Vegana</h4>
+						<p> Sabores disponíveis:<br>
+							>> Tradicionais: Brigadeiro com caramelo, branquinho com paçoca<br><br>
+							*Potinho com 150g --------------------------- R$ 10,00<br>
+							*Potinho com 250g --------------------------- R$ 18,00</p><br><br>
+					</div><br><br>
+					<div class="fotos">
+						<h3>Bolos</h3><br><br>
+						<img src="img/naked.jpeg" alt="naked cake"> <!-- Naked Cake -->
+							<h4>Naked Cake</h4>
+						<p>Sabores disponíveis:<br>
+							>> Red Velvet, brigadeiro branco e preto e morangos;<br>
+							>> Cenoura com brigadeiro 70%;<br>
+							>> Bolo de chocolate, brigadeiro preto nata e morangos;<br>
+							>> Pão de Ló, brigadeiro branco ou preto e morangos.<br><br>
+							*Tamanho P --------------------------- R$ 70,00<br>
+							*Tamanho M --------------------------- R$ 85,00<br>
+							*Tamanho G --------------------------- R$ 100,00</p><br><br>
+					</div><br><br>
+					<div class="fotos">
+						<img src="img/kitkat.jpg" alt="naked cake"> <!-- Naked Cake -->
+							<h4>Kit kat</h4>
+						<p>Sabores disponíveis:<br>
+							>> Red Velvet, brigadeiro branco e preto, Kit Kat dark e M&M's;<br>
+							>> Cenoura com brigadeiro 70%, KitKat ao leite e M&M's;<br>
+							>> Bolo de chocolate, brigadeiro preto nata e morangos, KitKat dark e M&M's;<br>
+							>> Pão de Ló, brigadeiro branco ou preto e morangos, KitKat branco e M&M's.<br><br>
+							*Tamanho P --------------------------- R$ 100,00<br>
+							*Tamanho M --------------------------- R$ 120,00<br>
+							*Tamanho G --------------------------- R$ 150,00</p><br><br>
+					</div><br><br>
+					<div class="fotos">
+						<h3>Sobremesas</h3><br><br>
+						<img src="img/banofe.jpg" alt="naked cake"> <!-- Naked Cake -->
+							<h4>Tortas</h4>
+						<p>Sabores disponíveis:<br>
+							>> Palha italiana rechada;<br>
+							>> Banoffe;<br>
+							>> Limão;<br>
+							>> Maracujá.<br><br>
+							*Tamanho P --------------------------- R$ 60,00<br>
+							*Tamanho G --------------------------- R$ 80,00</p><br><br>
+					</div><br><br>
+				</figure>
+			</section><br>
+
+			<!-- Terceira Seção do Site -->
+			<section id="imagens">
+				<h2>Galeria</h2><br>
+				<p>Confira nossa galeria de imagens com fotos e vídeos dos nossos produtos, feitos com todo o amor e com os melhores ingredientes para adoçar o teu dia.</p><br>
+
+				<!-- Fotos, Vídeos, Gifs -->
+				<figure>
+					<div class="galeria">
+						<img src="img/brigspb.jpeg" alt="brigs tradicional">
+					</div>
+					<div class="galeria">
+						<img src="img/barracroc.jpeg" alt="barra crocante">
+					</div>
+					<div class="galeria">
+						<img src="img/brigsslac.jpeg" alt="bigadeiro zero lactose">
+					</div>
+					<div class="galeria">
+						<img src="img/brigsninho.jpeg" alt="brigadeiro de leite ninho com nutella">
+					</div>
+					<div class="galeria">
+						<img src="img/brigssortidos.jpeg" alt="brigadeiros feitos com amor">
+					</div>
+					<div class="galeria">
+						<img src="img/brigs.jpeg" alt="brigadeiros">
+					</div>
+					<div class="galeria">
+						<img src="img/nakedcake.jpg" alt="naked cake">
+					</div>
+					<div class="galeria">
+						<img src="img/tortapalha.jpg" alt="torta">
+					</div>
+					<div class="galeria">
+						<img src="img/Uísque.jpg" alt="brigs uisque">
+					</div>
+					<div class="galeria">
+						<img src="img/kitgift.jpg" alt="kit presente">
+					</div>
+					<div class="galeria">
+						<img src="img/presente.jpg" alt="kit">
+					</div>
+					<div class="galeria">
+						<img src="img/briguis.png" alt="sortidos">
+					</div>
+					<div class="galeria">
+						<video autoplay muted>
+							<source src="img/coremescla.mp4" type="video/mp4">
+							<source src="movie.ogg" type="video/ogg">
+						</video>
+					</div>
+				</figure>	
+			</section><br>
+
+			<!-- Quarta Seção do Site -->
+			<section id="pedido">
+				<h2>Pedidos</h2><br>
+				<p>Agora que você encontrou o seu docinho favorito, faça o seu pedido pelo ifood ou whatsApp, escolha receber no conforto do seu lar, no trabalho ou então você pode optar pela opção take away.</p><br>
+				<!-- Aqui vamos redirecionar para o WhatsApp para realização do pedido, porque para pedir no site, precisaríamos de uma plataforma de integração para pagamentos-->
+				<a href="http://api.whatsapp.com/send?phone=5555999469653&text=Bem-vindes" target="_blank">Peça Online</a>
+			</section><br>
+			<!-- Quinta Seção do Site -->
+			<section>
+					<h2>Sugestão</h2><br>
+					<p>Se você ainda não encontrou o seu docinho favorito, deixe aqui sua sugestão para que na próxima vez que voltares a nos visitar, você possa encontrar o seu doce favorito  em nosso cardápio.</p><br>
+				<form name="sugestao" action="envio.html" method="POST">
+					<!-- Login para Acesso -->
+				<div class="fundo">
+					<div id="suge">
+					<fieldset>
+						<legend>Dados de Cadastro</legend><br>
+						<input type="text" name="nome" class="dados" placeholder="Nome Completo">
+						<br><br>
+						<input type="tel" name="tel" class="dados" placeholder="Telefone">
+						<br><br>
+						<input required type="email" name="email" class="dados" placeholder=" Ex.: seuemail@aqui.com">
+						<br><br>
+						<input class="botão" type="submit" name="Enviar">
+					</fieldset>
+					</div>
+					<fieldset id="sugestao">
+						<div id="caixa">
+						<!-- Deixe seu comentário -->
+						<span>Não encontrou seu docinho favorito?</span>
+						<br><br>
+						<textarea cols="50" rows="10" maxlength="150" placeholder="Deixe aqui a sua sugestão <3"></textarea>
+						</div>
+					</fieldset>
+				</div>
+				</form><br>
+			</section>
+			<!-- Sexta Seção do Site -->
+			<section id="depo">
+				<h2>Depoimento dos Clientes</h2><br>
+				<span>Veja aqui o que nossos clientes falam sobre nossos produtos.</span><br><br>
+					<ul>
+						<li>
+							Yahna Sosnowski:<br>
+							Apaixonada por essas belezuras de docinho!<br>
+							Lindos, gostosos e muuuuito caprichados!<br> 
+							Parabéns!<br>
+						</li>
+						<li>
+							Daiana Christ:<br>
+							Sem sombra de dúvidas são os melhores doces que eu já<br> 
+							experimentei na vida! Além do sabor de alta qualidade,<br>
+							o atendimento da Taís é excepicional.<br>
+							Sou fã do produto e freguesa vitalícia da Doce Loucura.<br>
+						</li>
+						<li>
+							Emanuela Lopes:<br>
+							Gosto muito da qualidade dos produtos.<br>
+							O brigadeiro dark e de café são excelentes<br>
+							e o de uísque é muito interessante. O malte<br>
+							com o amargor do chocolate são sensacionais.<br>
+						</li>
+					</ul>
+			</section><br>
+				<!-- Rodapé que quando acessar o menu contato direcionará pra cá -->
+			<footer id="contato">
+				<div id="endereco">
+					<h4>Contatos:</h4>
+					<address>
+						Endereço: Rua Tapajós, 57 - Jardim São Pedro, Porto alegre/RS - 91040-410<br>
+						Telefone: (55) 999-469-653<br> 
+						Atendimentos de terça à sábado das 13h às 19h -<br>
+						Entrega: Take Away ou Ifood<br>
+					</address>	
+				</div>
+	
+				<div id="mapa">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.913420261087!2d-51.16576768535267!3d-30.010642336664727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951977722905eca9%3A0x3e2af8bd37734085!2sR.%20Tapaj%C3%B3s%2C%2057%20-%20Jardim%20Sao%20Pedro%2C%20Porto%20Alegre%20-%20RS%2C%2091040-410!5e0!3m2!1spt-PT!2sbr!4v1625659569118!5m2!1spt-PT!2sbr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				</div>
+			</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
+
