@@ -1,0 +1,290 @@
+/***** Cores da marca que usaremos para fazer este site: 
+#F2D6D2 (cor de fundo rosa claro principal);
+#DCA6A7 ( cor indermediária do rosa para utilizarmos em detalhes não tão importantes);
+#CF7B84 ( cor rosa mais forte utilizado para marcadores de menu e rodapé);
+#936359 ( cor marrom mais clarinho, utilizado para contornos não tão importantes e também alguns detalhes);
+#824E3E ( cor marrom indermediário utilizado para contornos e textos);
+#673325 ( cor marrom mais forte utilizado para os textos principais do nosso site);
+Fonte que usaremos da marca: Calibri ****/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+/*Cor de fundo da página, fonte de texto e cor do texto de todo HTML*/
+
+body{
+	font-family: Calibri;
+	color: #673325;
+	background-color: #F2D6D2;
+	width: 70%;
+	margin-left: 200px;
+	margin-right: 100px;
+}
+
+#logo{
+	width: 45%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -10%;
+	margin-bottom: -10%;
+}
+
+/********Cabeçalho***********/ /*Aqui vai ficar bonitinho ocupando a largura da página toda como o prof explicou na aula de sábado*/
+header{
+	width: 100%;
+	height: 70px;
+	background-color: #CF7B84;
+}
+.area-menu{
+	/*Aqui vai ajudar na adaptação de telas com largura minima e máxima*/
+	min-width: 960px;
+	max-width: 1024px;
+	height: 100%;
+	/*Ajusta de forma adequada o texto do meu menu*/
+	margin: auto;
+}
+nav{
+	/*Aqui posiciona o texto na largura de todo o menu*/
+	width: 100%;
+	/*Aqui posiciona o texto na altura que queremos cobrir o menu*/
+	height: 100%;
+}
+nav ul{
+	display: table;
+	padding: 0;
+	height: 100%;
+}
+
+nav ul li{
+	/*coloca um do lado do outro*/
+	display: table-cell;
+	width: 150px;
+	text-align: center;
+	vertical-align: middle;
+}
+nav ul li a:hover,
+nav ul li a:active{
+	color: #DCA6A7;
+	text-decoration: none;
+
+}
+nav ul li a {
+	color: #673325;
+	font-weight: bold;
+	font-size: 18px;
+	font-style: normal;
+	text-decoration: none;
+}
+#animacao{
+	width: 100%;
+	height: 100%;
+}
+
+#slider{
+	border: 5px solid #DCA6A7;
+	height: 60%;
+	line-height: 0;
+	display: inline-block;
+}
+#slider img{
+	width: 0 auto;
+	height: 0 auto;
+}
+#slider h2{
+	color: transparent;
+}
+.links{
+	width: fit-content;
+	height: 50px;
+	position: fixed;
+	bottom: 120px;
+	right: 0;
+	
+}
+.links img{
+	width: 50px;
+	height: 50px;
+}
+.redes-sociais{
+	display: flex;
+	flex-direction: column;
+}
+#quemsomos{
+	margin-top: 50px;
+	font-size: 18px;
+}
+#quemsomos p{
+	font-size: 16px;
+	text-align: justify;
+}
+#fotogurias figure{
+	width: 32%;
+	float: left;
+	text-align: center;
+}
+#fotogurias{
+	width: 100%;
+	height: 20%;
+
+}
+#fotogurias img{
+	width: 150px;
+	display: inline-block;	
+}
+#fotogurias figcaption{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 16px;
+}
+#cardapio{
+	width: 100%;
+}
+
+#cardapio p{ /*Apresentação do cardápio*/
+	font-size: 16px;
+	text-align: justify;
+}
+.fotos{ /*Definição somente do seletor de toda a div que quero arrumar*/
+	width: 100%;
+	display: inline-block;
+}
+.fotos h3{
+	display: block;
+	font-weight: bold;
+}
+.fotos img{ /*Definição de ajuste para as imagens com a class fotos*/
+	width: 50%;
+	height: 15%;
+	display: inline-block;
+	padding: 10px;
+	float: left;
+}
+.fotos h4{ /*título do produto que tem na foto*/
+	font-style: italic;
+	text-align: center;
+	display: block;
+	padding-top: 30px;
+}
+.fotos p{ /*Preços dos produtos que temos nas categorias*/
+	display: inline-block;
+	text-align: center;
+	padding: 10 auto;
+}
+
+#imagem{
+	width: 100%;
+	height: 100%;
+}
+
+.galeria{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	display: inline;
+	margin: 0 auto;
+}
+.galeria img{
+	width: 45%;
+	height: 450px;
+	display: inline-block;
+	padding: 10px;
+}
+.galeria video{
+	width: 45%;
+	height: 450px;
+	display: inline-block;
+	padding: 10px;
+}
+#pedido a{ /*Pedidos redirecionando direto no whatsApp*/
+	border: 5px solid #CF7B84;
+	text-decoration: none;
+	color: #DCA6A7;
+	text-align: center;
+	font-weight: bold;
+	background-color: #CF7B84;
+}
+.fundo{ /*Caixa do formulário*/
+	background-color:#DCA6A7;
+}
+#suge{
+	display: inline-block;
+	float: left;
+	padding: 20px;
+}
+#caixa{
+	margin-left: 200px;
+	padding: 20px;
+	display: block;
+}
+
+.botão{
+	width: 150px;
+	background-color: #824E3E;
+	color: #DCA6A7;
+	border: 3px solid #CF7B84;
+	float: left;
+}
+
+#depo ul li{  /*Depoimento dos nossos clientes*/
+	display: table-cell;
+	text-align: left;
+	font-size: 16px;
+	font-style: italic;
+	margin-right: 30px;
+	padding: 15px;
+}
+span{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+footer{
+	width: 100%;
+	height: 100%;
+	background-color: #CF7B84;
+	padding: 0;
+}
+
+/*Rodapé, onde estará contido o contato da empresa*/
+#endereco{
+	display: inline-block;
+	width: 40%;
+	height: 30%;
+	font-size: 16px;
+	background-color: #CF7B84;
+	float: left;
+	padding: 21px;
+}
+#mapa{
+	width: 60%;
+	height: 70%;
+	background-color: #CF7B84;
+	float: right;
+	padding: 20px;
+}
+#mapa iframe{
+	width: 60%;
+	height: 170px;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
